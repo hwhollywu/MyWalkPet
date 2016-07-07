@@ -4,7 +4,6 @@ Presented 2016/7/7
 
 Demo video:
 https://youtu.be/tYQA8R-ltyo
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://youtu.be/tYQA8R-ltyo)
 
 ##Things need to be done:
 - [ ] DEBUG!!!
