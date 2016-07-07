@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MyWalkPet</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tvSteps">Steps:</string>
+    <string name="tvCoins">Coins earned:</string>
+    <string name="welcome">Welcome!</string>
+    <string name="new_pet">New Pet</string>
+    <string name="resume">Resume</string>
+    <string name="about">About</string>
+    <string name="sorry_toast">Sorry! unable to create maps</string>
+    <string name="goal">%Goal:</string>
+    <string name="miles">Miles:</string>
+    <string name="coins_earned">Coins Earned:</string>
+    <string name="permission_request">I need it for GPS</string>
+    <string name="no_step_sensor">This phone doesn\'t have a step sensor</string>
+    <string name="location_fail">Failed to get current location</string>
+    <string name="next">Next</string>
+    <string name="toast_personalize">Please complete the information</string>
+    <string name="choosekind_c1">Charmander</string>
+    <string name="choosekind_s1">Squirtle</string>
+    <string name="choosekind_b1">Bulbasaur</string>
+    <string name="toast_no_existing_pet">There\'s no existing pet.\n Please start with a new pet.</string>
+    <string name="about_info">AIT Summer 2016 \n Mobile Final Project \n by Holly Wu</string>
+    <string name="toast_kind">Please select from one of the three kinds</string>
+    <string name="snackbar_newpet">Might lose your old pet. \n Are you sure?</string>
+    <string name="walking_summary">Walking Summary</string>
+    <string name="hunger">Hunger:</string>
+    <string name="hygiene">Hygiene:</string>
+    <string name="fun">Fun:</string>
+    <string name="coins">Coins: 0 </string>
+    <string name="level">Level:</string>
+    <string name="toaast_moneyEnough">You don\'t have enough coins!</string>
+</resources>

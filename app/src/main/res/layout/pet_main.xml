@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pet_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context="com.hwhollywu.mobileproject.MainActivity">
+
+    <ProgressBar
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:progressTint="@color/colorPrimary"
+        android:progressBackgroundTint="@color/common_google_signin_btn_text_light_disabled"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/barExp"
+        android:max="100"
+        android:progress="50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/layoutTop"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+         <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnAdd"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+             android:clickable="true"
+             android:layout_margin="10dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tvExp"
+            android:text="Exp: "
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/tvLevel"
+            android:text="@string/level"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tvTotalCoins"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="@string/coins"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:id="@+id/ivPet"
+        android:src="@drawable/charmander"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:id="@+id/layoutBottomAttributes">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/hunger"
+            android:id="@+id/tvHunger"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/hygiene"
+            android:id="@+id/tvHygiene"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fun"
+            android:id="@+id/tvFun"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:id="@+id/layoutBottomBars">
+        <ProgressBar
+            android:id="@+id/barHunger"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:progressTint="@color/colorPrimary"
+            android:progressBackgroundTint="@color/common_google_signin_btn_text_light_disabled"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:progress="80"
+            android:max="100"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+        <ProgressBar
+            android:id="@+id/barHygiene"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:progress="80"
+            android:max="100"
+            android:progressTint="@color/colorPrimary"
+            android:progressBackgroundTint="@color/common_google_signin_btn_text_light_disabled"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+        <ProgressBar
+            android:id="@+id/barFun"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:progress="80"
+            android:max="100"
+            android:progressTint="@color/colorPrimary"
+            android:progressBackgroundTint="@color/common_google_signin_btn_text_light_disabled"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+    </LinearLayout>>
+
+</LinearLayout>
